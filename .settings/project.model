@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.actuate.istudio.analysis.model:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.actuate.istudio.analysis.model="http:///com.actuate.istudio.analysis.model.ecore" name="Infographics">
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Infographics - Landscape.rptdesign" path="/Infographics/Report Designs/Infographics - Landscape.rptdesign">
+    <dataSets name="Data Set">
+      <columns name="Metric"/>
+      <columns name="MetricKey"/>
+      <columns name="Amt"/>
+      <columns name="CurrentOrGoal"/>
+    </dataSets>
+    <dataSets name="Traffic">
+      <columns name="Day"/>
+      <columns name="Type"/>
+      <columns name="Traffic"/>
+    </dataSets>
+    <dataSets name="Traffic Type">
+      <columns name="Type"/>
+      <columns name="Amount"/>
+    </dataSets>
+    <dataSets name="Worldwide Traffic">
+      <columns name="Country"/>
+      <columns name="Amount"/>
+    </dataSets>
+  </files>
+</com.actuate.istudio.analysis.model:Project>
